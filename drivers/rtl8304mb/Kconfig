@@ -1,0 +1,12 @@
+
+#
+# rtl8304mb device configuration
+#
+
+config RTL8304MB
+		tristate "rtl8304mb driver"
+		default n
+		help
+		compile for leddriver,y for kernel,m for module.
+
+
